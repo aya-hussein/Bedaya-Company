@@ -1,0 +1,218 @@
+*{
+	transition: 0.4s;
+}
+.upper_nav {
+    background-color: #000;
+    color: #fff;
+   
+}
+.social {
+    padding: 10px;
+    font-size: 15px
+}
+.social2{
+
+
+text-align: right;
+padding-top: 10px
+
+}
+.social2 a{
+	color: #fff;
+	margin-right: 20px
+}
+.social2 a:hover{
+	color: #004c99
+}
+.menu_nav{
+background-color: #fff;
+height: 50px;
+color: #000;
+padding: 10px;
+
+
+}
+.menu2_nav{
+
+	background-color: #004c99;
+	padding: 30px;
+	color:#fff;
+}
+.nav-link:hover{
+	color: #004c99;
+}
+.item{
+
+	margin-right: 23px;
+	font-size: 13px
+}
+.plans_text h4{
+	margin-bottom: 25px;
+}
+.textName{
+margin-bottom:10px
+}
+.textarea1{
+margin:10px 0;	
+}
+.btn_start{
+
+	margin-left: 270px
+}
+.special{
+	color:#febf01; 
+}
+.normal{
+	color: #000;
+}
+.choices{
+	color: #fff
+}
+.choices:hover{
+	color: #febf01;
+	text-decoration: none;
+}
+.plans_text{
+
+	background-color: #eae657;
+    padding: 40px;
+}
+.plane_trip img{
+	width: 100%;
+
+}
+.service{
+	padding: 30px;
+}
+.block{
+ 	padding: 10px;
+ 	background:rgba(255,255,255,0.8);
+}
+.block h3{
+	color: #5a7ea5;
+	margin: 10px 0;
+}
+.block h5{
+	color: #000;
+}
+.block P{
+	display: none;
+
+}
+.pic1:hover p{
+	display: block;
+}
+.pic2:hover p{
+	display: block;
+}
+.pic3:hover p{
+	display: block;
+}
+
+/*.block2{
+    width: 270px;height: 150px;margin:12px 35px;
+	background-color: rgba(255,255,255,0.8);	
+}*/
+
+.pic1{
+
+background: url('../images/image1.png') center center no-repeat;
+background-size: cover;
+height: 300px;
+}
+.pic2{
+
+background: url('../images/image2.png') center center no-repeat;
+background-size: cover;
+height: 300px;
+}
+.pic3{
+
+background: url('../images/image3.png') center center no-repeat;
+background-size: cover;
+height: 300px;
+}
+.trips{
+	color: #004c99;
+	background: url('../images/kaba.png');
+	padding: 10px
+}
+.trips h3{
+margin-top: 25px
+}
+
+.trips img{
+	width: 100%;
+}
+
+.footer{
+	padding-bottom: 15px;
+	background: url('../images/greenback.png')center center no-repeat;
+	background-size: cover;
+	padding-top: 240px
+}
+
+.footer h4{
+	color: #fff;
+	
+}
+.footer h3{
+	color: #febf01;
+}
+.footer h6{
+	color: #fff;
+}
+
+.footerText{
+	padding-left: 50px
+}
+.footerText a{
+	color: #fff;
+	display: block;
+	width: fit-content;
+	font-size: 20px;
+    margin-bottom: 17px;
+}
+.footerText a:hover{
+	color: #febf01;
+	text-decoration: none
+}
+.contacts{
+	padding-left: 50px
+}
+.contacts a{
+	color: #fff;
+	margin-right: 15px
+}
+.contacts a:hover{
+	color: #febf01
+}
+.footerdown{
+background-image: url('../images/bottom.png');
+padding: 10px
+}
+.arabialogo{
+
+text-align: right;
+color: #fff
+}
+.copyright{
+color: #fff;
+	text-align: left;
+}
+
+/*MOBILE*/
+@media (max-width: 576px) {
+
+.footerText a{
+	font-size: 13px;
+}
+.footerdown span{
+	font-size: 12px
+}
+.copyright, .arabialogo{
+	text-align: center;
+}
+
+
+}
